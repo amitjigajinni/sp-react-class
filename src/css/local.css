@@ -1,0 +1,29 @@
+.avatar-border {
+    border: 2px lightblue solid;
+}
+
+.person-data {
+}
+
+.person-card {
+    border: 4px lightgray outset;
+    border-radius: 10px;
+    padding: 3px;
+    background-color: #FAFAFA;
+}
+
+.person-row {
+    margin-top: 15px;
+}
+
+th.clickable, td.clickable, tr.clickable {
+    cursor: pointer;
+}
+
+.payee-active {
+    background-color: lightgreen;
+}
+
+.payee-inactive {
+    background-color: yellow;
+}
