@@ -1,8 +1,8 @@
 # Exercise 19 Instructions
 ## Objectives
-1) Create a store to manage PayeeDetail's state
-2) Create action(s) and reducer(s) to interact with the store
-3) Connect the store to PayeeDetail using connect
+1) Create a store to manage PayeeDetail's state  
+2) Create action(s) and reducer(s) to interact with the store  
+3) Connect the store to PayeeDetail using connect  
 
 
 ### Create a store to manage PayeeDetail's state

@@ -1,9 +1,9 @@
 # Exercise 17 Instructions
 ## Objectives
-1) Create a store
-2) Initialize the state of the component with the state of the store
-3) Subscribe to the store with a listener which updates component state  
-4) Add a button which dispatches an action to the store 
+1) Create a store  
+2) Initialize the state of the component with the state of the store  
+3) Subscribe to the store with a listener which updates component state    
+4) Add a button which dispatches an action to the store  
 
 ### Create a store
 Create a store via Redux's `createStore` method. 
