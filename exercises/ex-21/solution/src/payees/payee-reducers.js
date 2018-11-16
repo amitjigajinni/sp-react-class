@@ -1,5 +1,5 @@
-import {combineReducers} from 'redux';
-import {payeesDAO} from '../data/class-data';
+import { combineReducers } from 'redux';
+import { payeesDAO } from '../data/class-data';
 import _sortBy from 'lodash/sortBy';
 
 const payee = ( state = payeesDAO.get( 23 ), action ) => {
@@ -71,4 +71,5 @@ const payeeApp = combineReducers( { payees, payee, view, sortField } );
 
 export default payeeApp;
 
-export {payees};
+// Exported for testing reasons
+export { payee, payees, view, sortField };
