@@ -33,4 +33,5 @@ src/tests
 !src/data/*.js
 
 exercises/proto
+old-exercises
 .idea
