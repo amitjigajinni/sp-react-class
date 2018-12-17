@@ -42,8 +42,12 @@ to see if the `id` param on the `match` prop has changed. If it has changed, cal
 `fetchData()` to update the component.
 
 #### In PayeesContainer
-Add code to the `backToList` function to use the history prop to send the browser back
-to the URL `/payees/list`. 
+Add code to the `backToList` function to use the `history` prop to send the browser back
+to the URL `/payees/list`.   
+Add code to `handleNextPrev` that finds the selected payee (keeping in mind that a direct
+call to `indexOf` will not work because the references between `payeeList` and `payee`
+are different due to being fetched at different times). Then, as the last line, use the 
+`history` prop to send the browser to the appropriate URL. 
 
 ### Check your code
 Navigate to http://localhost:3000/ to check your code. You should see a list of payees.
